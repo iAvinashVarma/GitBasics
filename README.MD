@@ -11,6 +11,9 @@ git remote remove origin
 git remote add origin https://github.com/iAvinashVarma/GitBasics.git
 git remote -v
 git rm LICENSE
-
+git rm --cached README.md
 git pull origin master --allow-unrelated-histories 
+git add .
+git commit -m "Updating README.MD."
+git push origin master
 ```
