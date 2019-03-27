@@ -17,3 +17,7 @@ git add .
 git commit -m "Updating README.MD."
 git push origin master
 ```
+
+## Mobile Instructions
+
+* Use Termux
