@@ -20,7 +20,7 @@ git push origin master
 
 ## Mobile Instructions
 
-* Use Termux
+* Use [Termux](https://play.google.com/store/apps/details?id=com.termux)
 
 ```
 pkg install git
