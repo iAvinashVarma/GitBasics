@@ -25,3 +25,9 @@ git push origin master
 ```
 pkg install git
 ```
+
+### Save git credentials
+
+```
+git config credential.helper store
+```
