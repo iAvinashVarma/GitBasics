@@ -21,3 +21,7 @@ git push origin master
 ## Mobile Instructions
 
 * Use Termux
+
+```
+pkg install git
+```
