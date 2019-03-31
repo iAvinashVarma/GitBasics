@@ -6,7 +6,7 @@ Git Basics is continuation of Git Fundamentals by [Microsoft Visual Studio](http
 
 Work with same local repository of Git Fundamentals.
 
-```console
+```cmd
 git remote remove origin
 git remote add origin https://github.com/iAvinashVarma/GitBasics.git
 git remote -v
@@ -28,6 +28,13 @@ pkg install git
 
 ### Save git credentials
 
-```
+```cmd
 git config credential.helper store
+```
+
+## Git History
+
+```cmd
+git blame README.MD
+git log --oneline --graph --decorate --abbrev-commit
 ```
