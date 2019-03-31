@@ -6,7 +6,7 @@ Git Basics is continuation of Git Fundamentals by [Microsoft Visual Studio](http
 
 Work with same local repository of Git Fundamentals.
 
-```console
+```cmd
 git remote remove origin
 git remote add origin https://github.com/iAvinashVarma/GitBasics.git
 git remote -v
@@ -22,12 +22,25 @@ git push origin master
 
 * Use [Termux](https://play.google.com/store/apps/details?id=com.termux)
 
-```
-pkg install git
+```bash
+$ pkg install git
 ```
 
 ### Save git credentials
 
+```cmd
+$ git config credential.helper store
 ```
-git config credential.helper store
+
+## Git History
+
+```bash
+$ git blame README.MD
+$ git log --oneline --graph --decorate --abbrev-commit
+```
+
+### Access mobile storage
+
+```bash
+$ termux-setup-storage
 ```
