@@ -29,6 +29,7 @@ $ pkg install git
 ### Save git credentials
 
 ```cmd
+<<<<<<< HEAD
 $ git config credential.helper store
 ```
 
@@ -43,4 +44,14 @@ $ git log --oneline --graph --decorate --abbrev-commit
 
 ```bash
 $ termux-setup-storage
+=======
+git config credential.helper store
+>>>>>>> adc8805... Add log related commands.
+```
+
+## Git History
+
+```cmd
+git blame README.MD
+git log --oneline --graph --decorate --abbrev-commit
 ```
