@@ -39,6 +39,12 @@ $ git blame README.MD
 $ git log --oneline --graph --decorate --abbrev-commit
 ```
 
+### Git History
+
+```cmd
+git blame README.MD
+git log --oneline --graph --decorate --abbrev-commit
+
 ### Access mobile storage
 
 ```bash
