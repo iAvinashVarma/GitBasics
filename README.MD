@@ -55,3 +55,9 @@ git config credential.helper store
 git blame README.MD
 git log --oneline --graph --decorate --abbrev-commit
 ```
+
+### Access mobile storage
+
+```bash
+$ termux-setup-storage
+```
