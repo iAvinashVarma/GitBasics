@@ -31,3 +31,9 @@ pkg install git
 ```
 git config credential.helper store
 ```
+
+### Access mobile storage
+
+```bash
+$ termux-setup-storage
+```
