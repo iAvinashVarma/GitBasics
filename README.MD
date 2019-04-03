@@ -29,7 +29,6 @@ $ pkg install git
 ### Save git credentials
 
 ```cmd
-<<<<<<< HEAD
 $ git config credential.helper store
 ```
 
@@ -38,22 +37,6 @@ $ git config credential.helper store
 ```bash
 $ git blame README.MD
 $ git log --oneline --graph --decorate --abbrev-commit
-```
-
-### Access mobile storage
-
-```bash
-$ termux-setup-storage
-=======
-git config credential.helper store
->>>>>>> adc8805... Add log related commands.
-```
-
-## Git History
-
-```cmd
-git blame README.MD
-git log --oneline --graph --decorate --abbrev-commit
 ```
 
 ### Access mobile storage
